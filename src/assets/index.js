@@ -12,7 +12,7 @@ import css from "./tech/css.png";
 import git from "./tech/git.png";
 import javascript from "./tech/javascript.png";
 import docker from "./tech/docker.png";
-import laravel from "./tech/laravel.png";
+import laravel from "./tech/Laravel.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import vue from "./tech/vue.png";
