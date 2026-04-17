@@ -18,7 +18,7 @@ import reactjs from "./tech/reactjs.png";
 import vue from "./tech/vue.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import python from "./tech/python.png";
+import python from "./tech/Python.png";
 import ai from "./tech/ai.png";
 
 import meta from "./company/meta.png";
