@@ -82,7 +82,7 @@ const technologies = [
   },
   {
     name: "Vue.js",
-    icon: vue, 
+    icon: vue,
   },
   {
     name: "Tailwind CSS",
@@ -120,12 +120,12 @@ const experiences = [
     company_name: "Allied Tajar",
     icon: starbucks,
     iconBg: "#f2f2f2",
-    date: "Fab 2021 - March 2023",
+    date: "Fab 2022 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the development of a full-scale ERP system, improving operational efficiency and productivity.",
+      "Managed end-to-end full stack development, including database design and system integrations.",
+      "Built a real-time reporting module with customizable dashboards for data-driven decision-making.",
+      "Developed and optimized POS and geolocation features, ensuring seamless transactions and real-time tracking.",
     ],
   },
   {
@@ -135,38 +135,38 @@ const experiences = [
     iconBg: "#f2f2f2",
     date: "Apr 2023 - Jun 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained scalable web applications using Laravel and MySQL.",
+      "Designed and implemented RESTful APIs for seamless third-party integrations.",
+      "Built real-time features including video calling and chat for remote healthcare solutions.",
+      "Implemented advanced search and filtering to improve user experience and accessibility.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+{
+  title: "Full Stack Developer",
+  company_name: "Huzmark Tech",
+  icon: shopify,
+  iconBg: "#383E56",
+  date: "Jul 2024 - May 2025",
+  points: [
+    "Delivered multiple Laravel-based projects for international clients across domains including ERP, healthcare, job portals, and event management systems.",
+    "Developed scalable web applications with custom features such as POS systems, patient history management, and task management platforms.",
+    "Designed and implemented RESTful APIs and dynamic dashboards for seamless system integrations and improved user experience.",
+    "Collaborated with clients to gather requirements, provide technical solutions, and ensure timely delivery of high-quality products.",
+  ],
+},
+{
+  title: "Full Stack Developer",
+  company_name: "TechFridge",
+  icon: meta,
+  iconBg: "#E6DEDD",
+  date: "Jun 2025 - DEC 2025",
+  points: [
+    "Developed scalable full stack solutions for Lote Tree Nursery, including a multilingual child activity and attendance management system.",
+    "Built a parent panel with automated observation reports via email, improving communication and long-term student tracking.",
+    "Engineered a custom installment management system with an investor panel for secure payment tracking and financial transparency.",
+    "Designed robust backend architecture using Laravel, MySQL, and JavaScript, ensuring data integrity and system scalability.",
+  ],
+}
 ];
 
 const testimonials = [

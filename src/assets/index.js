@@ -21,8 +21,8 @@ import typescript from "./tech/typescript.png";
 import python from "./tech/Python.png";
 import ai from "./tech/ai.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import meta from "./company/TechFridge.png";
+import shopify from "./company/huzmarktech.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/crexed.webp";
 
