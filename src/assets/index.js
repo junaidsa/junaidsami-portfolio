@@ -29,6 +29,7 @@ import tesla from "./company/crexed.webp";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import passionclinicsVideo from "./passionclinics-project-video.mp4";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  passionclinicsVideo,
 };

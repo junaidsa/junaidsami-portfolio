@@ -19,6 +19,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  passionclinicsVideo,
   vue,
   laravel,
   python,
@@ -198,25 +199,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "PassionClinics",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Laravel 11 web app for seamless patient–doctor interaction with appointment scheduling, video consultations, real-time notifications, and multi-language support. Built with performance and SEO in mind.",
     tags: [
       {
-        name: "react",
+        name: "Laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: passionclinicsVideo,
     source_code_link: "https://github.com/",
+    mediaType: "video",
   },
   {
     name: "Job IT",
@@ -238,6 +240,8 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    // mediaType: "image" (default) or "video" - add this property to use video
+    // mediaType: "image",
   },
   {
     name: "Trip Guide",
@@ -259,7 +263,21 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    // mediaType: "image" (default) or "video" - add this property to use video
+    // mediaType: "image",
   },
+  // Example of a project with video:
+  // {
+  //   name: "Video Project",
+  //   description: "A project showcasing video content.",
+  //   tags: [
+  //     { name: "react", color: "blue-text-gradient" },
+  //     { name: "video", color: "green-text-gradient" },
+  //   ],
+  //   image: "/path/to/your/video.mp4", // Can be a local path or URL
+  //   source_code_link: "https://github.com/",
+  //   mediaType: "video",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
