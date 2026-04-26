@@ -20,6 +20,7 @@ import {
   jobit,
   tripguide,
   passionclinicsVideo,
+  smarteduVideo,
   vue,
   laravel,
   python,
@@ -221,27 +222,31 @@ const projects = [
     mediaType: "video",
   },
   {
-    name: "Job IT",
+    name: "SmartEdu",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "Laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MySql",
         color: "green-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "bootstrap 5.3",
+        color: "pink-text-gradient",
+      },
     ],
-    image: jobit,
+    image: smarteduVideo,
     source_code_link: "https://github.com/",
     // mediaType: "image" (default) or "video" - add this property to use video
-    // mediaType: "image",
+    mediaType: "video",
   },
   {
     name: "Trip Guide",

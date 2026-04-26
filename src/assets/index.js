@@ -30,6 +30,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import passionclinicsVideo from "./passionclinics-project-video.mp4";
+import smarteduVideo from "./smartedu.mp4";
 
 export {
   logo,
@@ -61,4 +62,5 @@ export {
   jobit,
   tripguide,
   passionclinicsVideo,
+  smarteduVideo,
 };
