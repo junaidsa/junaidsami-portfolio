@@ -29,6 +29,8 @@ import tesla from "./company/crexed.webp";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import easyinstallments from "./easyinstallments.mp4";
+import wrkbid from "./wrkbid.png";
 import passionclinicsVideo from "./passionclinics-project-video.mp4";
 import smarteduVideo from "./smartedu.mp4";
 
@@ -63,4 +65,6 @@ export {
   tripguide,
   passionclinicsVideo,
   smarteduVideo,
+  easyinstallments,
+  wrkbid,
 };

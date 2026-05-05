@@ -25,6 +25,8 @@ import {
   laravel,
   python,
   ai,
+easyinstallments,
+wrkbid,
 } from "../assets";
 
 export const navLinks = [
@@ -118,31 +120,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company_name: "Allied Tajar",
-    icon: starbucks,
-    iconBg: "#f2f2f2",
-    date: "Fab 2022 - March 2023",
-    points: [
-      "Led the development of a full-scale ERP system, improving operational efficiency and productivity.",
-      "Managed end-to-end full stack development, including database design and system integrations.",
-      "Built a real-time reporting module with customizable dashboards for data-driven decision-making.",
-      "Developed and optimized POS and geolocation features, ensuring seamless transactions and real-time tracking.",
-    ],
-  },
-  {
-    title: "Backend Developer",
-    company_name: "Crexed",
-    icon: tesla,
-    iconBg: "#f2f2f2",
-    date: "Apr 2023 - Jun 2024",
-    points: [
-      "Developed and maintained scalable web applications using Laravel and MySQL.",
-      "Designed and implemented RESTful APIs for seamless third-party integrations.",
-      "Built real-time features including video calling and chat for remote healthcare solutions.",
-      "Implemented advanced search and filtering to improve user experience and accessibility.",
-    ],
-  },
+  title: "Full Stack Developer",
+  company_name: "TechFridge",
+  icon: meta,
+  iconBg: "#E6DEDD",
+  date: "Jun 2025 - DEC 2025",
+  points: [
+    "Developed scalable full stack solutions for Lote Tree Nursery, including a multilingual child activity and attendance management system.",
+    "Built a parent panel with automated observation reports via email, improving communication and long-term student tracking.",
+    "Engineered a custom installment management system with an investor panel for secure payment tracking and financial transparency.",
+    "Designed robust backend architecture using Laravel, MySQL, and JavaScript, ensuring data integrity and system scalability.",
+  ],
+},
 {
   title: "Full Stack Developer",
   company_name: "Huzmark Tech",
@@ -157,18 +146,31 @@ const experiences = [
   ],
 },
 {
-  title: "Full Stack Developer",
-  company_name: "TechFridge",
-  icon: meta,
-  iconBg: "#E6DEDD",
-  date: "Jun 2025 - DEC 2025",
-  points: [
-    "Developed scalable full stack solutions for Lote Tree Nursery, including a multilingual child activity and attendance management system.",
-    "Built a parent panel with automated observation reports via email, improving communication and long-term student tracking.",
-    "Engineered a custom installment management system with an investor panel for secure payment tracking and financial transparency.",
-    "Designed robust backend architecture using Laravel, MySQL, and JavaScript, ensuring data integrity and system scalability.",
-  ],
-}
+    title: "Backend Developer",
+    company_name: "Crexed",
+    icon: tesla,
+    iconBg: "#f2f2f2",
+    date: "Apr 2023 - Jun 2024",
+    points: [
+      "Developed and maintained scalable web applications using Laravel and MySQL.",
+      "Designed and implemented RESTful APIs for seamless third-party integrations.",
+      "Built real-time features including video calling and chat for remote healthcare solutions.",
+      "Implemented advanced search and filtering to improve user experience and accessibility.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Allied Tajar",
+    icon: starbucks,
+    iconBg: "#f2f2f2",
+    date: "Fab 2022 - March 2023",
+    points: [
+      "Led the development of a full-scale ERP system, improving operational efficiency and productivity.",
+      "Managed end-to-end full stack development, including database design and system integrations.",
+      "Built a real-time reporting module with customizable dashboards for data-driven decision-making.",
+      "Developed and optimized POS and geolocation features, ensuring seamless transactions and real-time tracking.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -248,41 +250,93 @@ const projects = [
     // mediaType: "image" (default) or "video" - add this property to use video
     mediaType: "video",
   },
-  {
-    name: "Trip Guide",
+{
+  name: "skillslay",
+  description:
+    "A comprehensive course management portal that allows students to enroll in courses, track their progress, manage schedules, and access learning materials, while admins can manage courses, teachers, and student data efficiently.",
+  tags: [
+    {
+      name: "reactjs",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Laravel",
+      color: "green-text-gradient",
+    },
+    {
+      name: "mysql",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: tripguide,
+  source_code_link: "https://github.com/",
+},
+
+{
+    name: "Easy installments",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A sales and installment management platform designed to handle product financing, track customer payment schedules, monitor outstanding balances, and generate comprehensive reports for better business insights.",
     tags: [
       {
-        name: "nextjs",
+        name: "Laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: easyinstallments,
     source_code_link: "https://github.com/",
-    // mediaType: "image" (default) or "video" - add this property to use video
-    // mediaType: "image",
+    mediaType: "video",
   },
-  // Example of a project with video:
-  // {
-  //   name: "Video Project",
-  //   description: "A project showcasing video content.",
-  //   tags: [
-  //     { name: "react", color: "blue-text-gradient" },
-  //     { name: "video", color: "green-text-gradient" },
-  //   ],
-  //   image: "/path/to/your/video.mp4", // Can be a local path or URL
-  //   source_code_link: "https://github.com/",
-  //   mediaType: "video",
-  // },
+  {
+    name: "Wrkbid",
+    description:
+      "A Laravel 11 web app for seamless patient–doctor interaction with appointment scheduling, video consultations, real-time notifications, and multi-language support. Built with performance and SEO in mind.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wrkbid,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "PassionClinics",
+    description:
+      "A Laravel 11 web app for seamless patient–doctor interaction with appointment scheduling, video consultations, real-time notifications, and multi-language support. Built with performance and SEO in mind.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: passionclinicsVideo,
+    source_code_link: "https://github.com/",
+    mediaType: "video",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
